@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-wrapper{
+    background-color: black;
+}
+.header-wrapper .nav-item{
+    padding:10px 40px;
+    font-size: 1.4rem;
+    transition: .2s linear;
+}
+.nav-item .nav-link {
+    color:#ffffff;
+}
+.header-wrapper .nav-item:hover{
+    background:#f87a04;
+}
+.dropdown-menu{
+    background-color: #000;
+}
+.dropdown-menu .dropdown-item{
+    padding:13px 70px;
+    font-size: 1.3rem; 
+    color:#ffffff;
+}
+.dropdown-menu .dropdown-item:hover{
+    background:#f87a04;
+    
+}
